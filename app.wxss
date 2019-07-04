@@ -1,0 +1,34 @@
+/**weui**/
+@import 'style/weui.wxss';
+
+/*全局怪异盒子*/
+view,image,movable-view,cover-image,cover-view,movable-area,scroll-view,swiper,swiper-item,icon,progrerss,rich-text,text,button,checkbox,checkbox-group,editor.form,input,label,picker,picker-view,picker-view-column,radio,radio-group,slider,switch,textarea,functional-page-navigator,navigator,audio,camera,image,live-player,live-pusher,video,map,canvas,ad,official-account,open-data,web-view{
+  box-sizing:border-box;
+}
+
+/**app.wxss**/
+view{
+  display:block;
+}
+
+/**class**/
+.container{
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22rpx 0;
+}
+.page_block{
+  padding-bottom: 10rpx;
+}
+
+/*图标*/
+.iconfont{
+  width: 36rpx;
+  display: inline-block;
+  line-height: auto;
+  height: auto;
+}
+
